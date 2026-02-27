@@ -9,7 +9,7 @@ for (let i = 0; i < herois.length; i++) {
   const xp = herois[i].xp;
   let nivel = "";
 
-if (xp <= 0) nivel = "XP inválido";
+if (xp < 0) nivel = "XP inválido";
 else if (xp <= 1000) nivel = "Ferro";
 else if (xp <= 2000) nivel = "Bronze";
 else if (xp <= 5000) nivel = "Prata";
