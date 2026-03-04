@@ -6,8 +6,8 @@ Projeto desenvolvido para o desafio da DIO com foco em lógica de programação 
 
 Criar uma função que recebe a quantidade de vitórias e derrotas de um jogador, calcula o saldo e determina o nível do herói.
 
-- **Saldo de vitórias** = `vitórias - derrotas`
-- **Nível** definido com base na quantidade de vitórias
+- **Entrada**: vitórias e derrotas do jogador
+- **Saída**: saldo de vitórias e nível correspondente
 
 ## 📋 Regras de Classificação
 
@@ -29,17 +29,17 @@ O Herói tem de saldo de {saldoVitorias} está no nível de {nivel}
 
 ```txt
 .
-├── classificaçãoRanked.js
+├── classificacaoRanked.js
 └── README.md
 ```
 
 ## ▶️ Como Executar
 
-1. Abra o terminal na pasta do projeto.
+1. Abra o terminal na pasta deste desafio (`Ranked`).
 2. Execute:
 
 ```bash
-node classificaçãoRanked.js
+node classificacaoRanked.js
 ```
 
 ## 💡 Exemplo de Código
@@ -98,4 +98,3 @@ for (let i = 0; i < jogadores.length; i++) {
 ## 👨‍💻 Autor
 
 Danillo Martins
-

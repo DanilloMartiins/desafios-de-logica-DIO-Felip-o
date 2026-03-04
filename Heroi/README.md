@@ -37,7 +37,7 @@ O Herói de nome {nome} está no nível de {nivel}
 
 ## ▶️ Como Executar
 
-1. Abra o terminal na pasta do projeto.
+1. Abra o terminal na pasta deste desafio (`Heroi`).
 2. Execute:
 
 ```bash

@@ -32,11 +32,11 @@ o {type} atacou usando {ataque}
 
 ## ▶️ Como Executar
 
-1. Abra o terminal na pasta do projeto.
+1. Abra o terminal na pasta deste desafio (`Classes do Heroi`).
 2. Execute:
 
 ```bash
-node "Classes do Heroi/escrevendoClasses.js"
+node escrevendoClasses.js
 ```
 
 ## 💡 Exemplo de Código
