@@ -1,4 +1,4 @@
-# Desafios de Lógica - DIO
+﻿# Desafios de Lógica - DIO
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-brightgreen)
 ![Linguagem](https://img.shields.io/badge/linguagem-JavaScript-yellow)
@@ -22,62 +22,83 @@ Este repositório reúne soluções de desafios com foco em:
 
 ```txt
 .
+├── README.md
 ├── Heroi
 │   ├── classificadorNivelDeHeroi.js
 │   └── README.md
-└── Ranked
-    ├── classificacaoRanked.js
+├── Ranked
+│   ├── classificacaoRanked.js
+│   └── README.md
+└── Classes do Heroi
+    ├── escrevendoClasses.js
     └── README.md
-🚀 Desafios
-1️⃣ Classificador de Nível de Herói
+```
+
+## 🚀 Desafios
+
+### 1️⃣ Classificador de Nível de Herói
+
 Classifica o nível de um herói com base no XP informado.
 
-Entrada: nome e XP
-Saída: O Herói de nome {nome} está no nível de {nivel}
-📁 Pasta: Heroi/
+- **Entrada**: nome e XP
+- **Saída**: `O Herói de nome {nome} está no nível de {nivel}`
+- **Pasta**: `Heroi/`
 
-2️⃣ Calculadora de Partidas Rankeadas
+### 2️⃣ Calculadora de Partidas Rankeadas
+
 Calcula o saldo de vitórias e define o nível do jogador.
 
-Saldo: vitórias - derrotas
-Saída: O Herói tem de saldo de {saldoVitorias} está no nível de {nivel}
-📁 Pasta: Ranked/
+- **Saldo**: `vitórias - derrotas`
+- **Saída**: `O Herói tem de saldo de {saldoVitorias} está no nível de {nivel}`
+- **Pasta**: `Ranked/`
 
-🛠️ Tecnologias Utilizadas
-JavaScript
-Node.js
-Git
-GitHub
-▶️ Como Executar os Projetos
-Clone o repositório:
+### 3️⃣ Escrevendo as Classes de um Herói
 
-bash
+Cria uma classe `Hero` com propriedades (`name`, `age`, `type`) e um método `attack()` com saída baseada no tipo do herói.
 
+- **Saída**: `o {type} atacou usando {ataque}`
+- **Pasta**: `Classes do Heroi/`
+
+## 🛠️ Tecnologias Utilizadas
+
+- JavaScript
+- Node.js
+- Git
+- GitHub
+
+## ▶️ Como Executar os Projetos
+
+1. Clone o repositório:
+
+```bash
 git clone https://github.com/DanilloMartiins/desafios-de-logica-DIO-Felip-o.git
-Acesse a pasta:
+```
 
-bash
+2. Acesse a pasta:
 
+```bash
 cd desafios-de-logica-DIO-Felip-o
-Execute o desafio 1:
+```
 
-bash
+3. Execute os desafios:
 
+```bash
 node Heroi/classificadorNivelDeHeroi.js
-Execute o desafio 2:
-
-bash
-
 node Ranked/classificacaoRanked.js
-📚 Aprendizados
+node "Classes do Heroi/escrevendoClasses.js"
+```
+
+## 📚 Aprendizados
+
 Durante estes desafios, pratiquei:
 
-Pensamento lógico
-Estruturação de algoritmos
-Organização de código em arquivos/pastas
-Criação de documentação com README
-Fluxo de versionamento (add, commit, push)
+- Pensamento lógico
+- Estruturação de algoritmos
+- Organização de código em arquivos/pastas
+- Criação de documentação com README
+- Fluxo de versionamento (`add`, `commit`, `push`)
 
-👨‍💻 Autor
-Danillo Martins
-GitHub: @DanilloMartiins
+## 👨‍💻 Autor
+
+Danillo Martins  
+GitHub: [@DanilloMartiins](https://github.com/DanilloMartiins)
